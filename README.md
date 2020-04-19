@@ -12,6 +12,18 @@ FPGA board is not needed anymore.
 
 ![Screenshot](/max1000_pinout.png "Pinout")
 
+## Demos
+
+1. Read accelerometer via SPI and show acceleration value in LEDs
+
+2. Show text using presistence of vision (POV) in the LEDs. Accelerometer controls the direction of the text.
+
+This one was featured in Hackaday! - https://hackaday.com/2018/08/31/max1000-tutorial-is-quite-persistent/
+
+3. UART Transmitter / Receiver using oversampling and a basic valid/ready data interface.
+
+Here I did a little experiment in the receiver, to adjust dynamically the prescaler to match the baud rate of the transmitter.
+
 ## Features
 
 * Intel FPGA 10M08SAU169C8G
@@ -46,28 +58,19 @@ FPGA board is not needed anymore.
 
 ## License
 ```
-This is free and unencumbered software released into the public domain.
+    MAX10 Demos
+    Copyright (C) 2016-2020 Victor Pecanins
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <http://unlicense.org/>
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```

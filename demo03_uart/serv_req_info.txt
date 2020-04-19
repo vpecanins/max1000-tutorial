@@ -1,0 +1,27 @@
+<internal_error>
+<sub_system>ERR</sub_system>
+<callstack>
+	0x7fb129e9f1e1: ccl_err + 0x81e1 (_ZN15ERR_STACKWALKER15get_stack_traceEPPKviiPv + 0xb1)
+	0x7fb129ea222a: ccl_err + 0xb22a (_Z14err_terminatorv + 0x4b)
+	0x7fb15ae3d506: jtag_client + 0x33506 (_ZN10__cxxabiv111__terminateEPFvvE + 0x6)
+	0x7fb15ae3d533: jtag_client + 0x33533
+	0x7fb15ae3d686: jtag_client + 0x33686 (__cxa_rethrow + 0x46)
+	0x7fb14e019034: QtCore.so.4 + 0x1b5034 (_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE + 0x2f4)
+	0x7fb14e01dc84: QtCore.so.4 + 0x1b9c84 (_ZN16QCoreApplication4execEv + 0xb4)
+	   0x401efb: quartus + 0x1efb (_Z8qgq_mainiPPKc + 0x7b)
+	0x7fb12c781990: ccl_msg + 0x40990 (_Z15msg_main_threadPv + 0x10)
+	0x7fb129a610cc: ccl_thr + 0x60cc (thr_final_wrapper + 0xc)
+	0x7fb12c781a4f: ccl_msg + 0x40a4f (_Z18msg_thread_wrapperPFPvS_ES_ + 0x62)
+	0x7fb12a0d2679: ccl_mem + 0xa679 (_Z18mem_thread_wrapperPFPvS_ES_ + 0x99)
+	0x7fb129ea0034: ccl_err + 0x9034 (_Z18err_thread_wrapperPFPvS_ES_ + 0x27)
+	0x7fb129a61492: ccl_thr + 0x6492 (thr_thread_wrapper + 0x15)
+	0x7fb12c78394c: ccl_msg + 0x4294c (_Z12msg_exe_mainiPPKcPFiiS1_E + 0xa3)
+	   0x401fe6: quartus + 0x1fe6 (main + 0x26)
+	0x7fb121476b97: c.so.6 + 0x21b97 (__libc_start_main + 0xe7)
+	   0x401d99: quartus + 0x1d99
+</callstack>
+<error>*** Fatal Error: Unhandled Exception</error>
+<date>Fri Apr 17 01:43:23 2020
+</date>
+<version>Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition</version>
+</internal_error>
