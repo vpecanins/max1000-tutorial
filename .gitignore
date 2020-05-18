@@ -1,0 +1,13 @@
+db
+greybox_tmp
+incremental_db
+simulation
+synthesis
+.qsys_edit
+output_files
+
+*.bak
+*.rpt
+*.summary
+*.smsg
+

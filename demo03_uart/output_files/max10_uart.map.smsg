@@ -1,2 +1,0 @@
-Warning (10268): Verilog HDL information at top.v(68): always construct contains both blocking and non-blocking assignments File: /home/peca/Projects/max10_uart/top.v Line: 68
-Info (10281): Verilog HDL Declaration information at top.v(9): object "D" differs only in case from object "d" in the same scope File: /home/peca/Projects/max10_uart/top.v Line: 9
