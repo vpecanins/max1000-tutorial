@@ -25,6 +25,8 @@ FPGA board is not needed anymore.
 
 3. UART Transmitter/Receiver using oversampling and a basic valid/ready data interface.
 
+4. Dump contents of internal User Flash Memory (UFM) and CFM via UART in HEX format
+
 ## Features
 
 * Intel FPGA 10M08SAU169C8G
