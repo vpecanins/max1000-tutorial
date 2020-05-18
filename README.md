@@ -73,11 +73,7 @@ MAX1000 can be purchased at Arrow or Trenz Electronics websites:
 
 ### Schematics
 
-Schematics are available at Trenz Electronics website. Unfortunately their website
-is complicated to navigate and it's partly in german, so I often get lost.
-
-Here is a list of direct links to all schematics, hoping that Google will index them
-more easily.
+Schematics are available at Trenz Electronics website. Here is a list of direct links to all schematics
 
 * **MAX1000** -
 [REV01, Mar 2017](http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/Modules_and_Module_Carriers/2.5x6.15/TEI0001/REV01/Documents/SCH-TEI0001-01-08-C8.PDF) /
